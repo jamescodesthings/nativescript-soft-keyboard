@@ -1,8 +1,19 @@
+# History
+
+Forked from `https://github.com/liuy97/nativescript-soft-keyboard`
+
+## Changes
+
+- Inlined the AAR dependency for `keyboardheightprovider` due to bintray sunset.
+  - Original source here: https://github.com/Crysis21/KeyboardHeightProvider
+- Scoped to my npm org & bumped.
+
 # Nativescript soft-keyboard
 
 It is a challenge to get height of soft keyboard in Android and IOS. Android has not provided a direct way to read its height. But Nativescript app sometimes needs this information to achieve a good user interface.
 
 ## Break changes
+
 nativescript-soft-keyboard@2 for Nativescript@7
 
 nativescript-soft-keyboard@1 for Nativescript version < 7
@@ -14,17 +25,16 @@ tns plugin add nativescript-soft-keyboard
 ```
 
 ## Usage
-	
-```javascript
-    registerSoftKeyboardCallback((h) => console.log(h))
-```
 
+```javascript
+registerSoftKeyboardCallback((h) => console.log(h));
+```
 
 ## API
 
-| function | parameter | Description |
-| --- | --- | --- |
-| registerSoftKeyboardCallback | callback | register a callback for new height of soft keyboard |
+| function                     | parameter | Description                                         |
+| ---------------------------- | --------- | --------------------------------------------------- |
+| registerSoftKeyboardCallback | callback  | register a callback for new height of soft keyboard |
 
 ## License
 

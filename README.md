@@ -1,11 +1,11 @@
-# @nativescript/\* plugins
+# @codesthings/\* plugins
 
 ```
 npm run setup
 npm start
 ```
 
-- @nativescript/soft-keyboard
+- @codesthings/soft-keyboard
 
 # How to use?
 
