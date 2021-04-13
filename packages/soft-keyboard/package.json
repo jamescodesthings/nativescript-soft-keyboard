@@ -1,6 +1,6 @@
 {
   "name": "@codesthings/nativescript-soft-keyboard",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Detect soft keyboard Height",
   "main": "index",
   "typings": "index.d.ts",
