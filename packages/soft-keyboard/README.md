@@ -1,6 +1,6 @@
 # History
 
-Forked from `https://github.com/liuy97/nativescript-soft-keyboard`
+Forked from https://github.com/liuy97/nativescript-soft-keyboard
 
 ## Changes
 
